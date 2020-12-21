@@ -9,7 +9,7 @@ array<int>^ matrixToArr(const array<int, 2>^ matrix)
 		result_array[i] = matrix[min_index, i];
 
 	Console::WriteLine(L"Created a one-dimensional array from"
-		"elements \nof the matrix row with the minimum element on the main diagonal.");
+		" elements \nof the matrix row with the minimum element on the main diagonal.");
 	Console::ReadKey();
 	Console::Clear();
 

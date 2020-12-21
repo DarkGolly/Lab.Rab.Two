@@ -69,6 +69,9 @@ void menu(array<int, 2>^& C, array<int, 2>^& D, array<int>^& S, array<int>^& T)
 			}
 			break;
 		default:
+			Console::WriteLine("Select an action from 0 to 6.");
+			Console::ReadKey();
+			Console::Clear();
 			break;
 		}
 	}
